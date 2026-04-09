@@ -31,11 +31,11 @@ The act of writing is therapeutic even without a reader. But knowing that text *
 ```
 conch/
 ├── index.html          — markup, semantic HTML, ARIA labels
-├── src/
-│   ├── style.css       — design tokens, golden-ratio layout, all styles
-│   ├── main.js         — app entry point, DOM wiring, release flow
-│   ├── particles.js    — unified RAF loop, Particle class, Mote class, spawnParticles()
-│   └── storage-guard.js — zero-storage guarantee, called before any user interaction
+└── src/
+    ├── style.css       — design tokens, golden-ratio layout, all styles
+    ├── main.js         — app entry point, DOM wiring, release flow
+    ├── particles.js    — unified RAF loop, Particle class, Mote class, spawnParticles()
+    └── storage-guard.js — zero-storage guarantee, called before any user interaction
 ```
 
 ---
